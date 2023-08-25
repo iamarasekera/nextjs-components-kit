@@ -45,3 +45,6 @@ npm i --save-dev @types/react-slick
 ## Default MUI Installtion for resposive design and UI
 
 npm install @mui/material @emotion/react @emotion/styled
+
+## Icon buttons
+npm install @mui/icons-material

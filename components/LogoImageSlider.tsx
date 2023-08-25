@@ -6,7 +6,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import { useMediaQuery, Card, CardContent, Box } from '@mui/material';
 import Image from 'next/image';
 
-const ImageSlider: React.FC = () => {
+const LogoImageSlider: React.FC = () => {
   const isMobile = useMediaQuery('(max-width:767px)');
   const isTablet = useMediaQuery('(min-width:768px) and (max-width:1023px)');
 
@@ -73,4 +73,4 @@ interface SliderSettings {
   autoplaySpeed: number;
 }
 
-export default ImageSlider;
+export default LogoImageSlider;
